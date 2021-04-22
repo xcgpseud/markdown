@@ -1,0 +1,24 @@
+{
+  "name": "xcgpseud/markdown",
+  "description": "Markdown editor",
+  "type": "project",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "xcgpseud",
+      "email": "chris.evans92@hotmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^9.5",
+    "miladrahimi/phprouter": "^5.1",
+    "twig/twig": "^3.3",
+    "nesbot/carbon": "^2.46"
+  },
+  "autoload": {
+    "psr-4": {
+      "Markdown\\": "src/",
+      "Tests\\": "tests/"
+    }
+  }
+}
